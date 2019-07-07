@@ -29,8 +29,8 @@ public class AccountsPayable {
 		ReceiveEmailWithAttachment recv=new ReceiveEmailWithAttachment();
 		String pop3Host = "pop.gmail.com";//change accordingly
 		String mailStoreType = "pop3";	
-		userName = "mkharitha14@gmail.com";//change accordingly
-		password = "harsha@14";//change accordingly
+		userName = "xyz@gmail.com";//change accordingly
+		password = "xyz";//change accordingly
 		file=recv.receiveEmail(pop3Host, mailStoreType, userName, password);
 		from=recv.fromdetail();
 	}
