@@ -21,7 +21,9 @@ ojdbc6.jar\
 fontbox-2.0.16.jar\
 mail.jar.
 
-AccountsPayable.java: This is tha main class where it calls other classes.Here change userName(emailid) and password accordingly.In dbConnection() mention appropriate url,user,password.
+AccountsPayable.java: This is tha main class where it calls other classes.Here change userName(emailid) and password accordingly.
+
+DBConnect:In dbconn() mention appropriate url,user,password.
 
 ReceiveEmailWithAttachment.java: It receives email from the mentioned user and saves it in the mentioned folder.
 
