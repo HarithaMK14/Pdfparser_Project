@@ -14,13 +14,6 @@ IDE USED: ECLIPSE\
 DB:       Oracle SQLDeveloper\
 INVOICE PDF USED HERE IS ATTACHED.(Acushnet.pdf)
 
-Pre-requisites:\
-Include the following jar files in your project.\
-pdfbox-app-2.0.16.jar\
-ojdbc6.jar\
-fontbox-2.0.16.jar\
-mail.jar.
-
 AccountsPayable.java: This is tha main class where it calls other classes.Here change userName(emailid) and password accordingly.
 
 DBConnect:In dbconn() mention appropriate url,user,password.
